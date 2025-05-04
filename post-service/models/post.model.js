@@ -29,7 +29,7 @@ const postSchema = new mongoose.Schema(
                     ref: "User", // User who commented
                     required: true,
                 },
-                content: {
+                comment: {
                     type: String,
                     required: true,
                 },
