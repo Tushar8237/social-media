@@ -25,4 +25,4 @@ router.put("/:id", verifyToken, updatePost);
 // Delete a post
 router.delete("/:id", verifyToken, deletePost);
 
-export default router;
+export default router; 
